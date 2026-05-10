@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"from Crypto.Hash import SHA256; print\\('ok'\\)\")",
+      "Bash(python3 *)",
+      "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/pip install *)",
+      "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/python -c \"from Crypto.Hash import SHA256; print\\('Crypto ok'\\)\")",
+      "Bash(.venv/bin/python *)",
+      "Bash(.venv/bin/pytest *)",
+      "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/pytest tests/test_keyexchange.py -v)"
+    ]
+  }
+}
