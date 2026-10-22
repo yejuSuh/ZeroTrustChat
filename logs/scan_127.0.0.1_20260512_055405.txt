@@ -1,0 +1,3 @@
+65476 (NA) was open
+time elapsed = 0.0s
+time per scan = 0.0036s

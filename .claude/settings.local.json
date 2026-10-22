@@ -11,7 +11,8 @@
       "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/python -c \"from Crypto.Hash import SHA256; print\\('Crypto ok'\\)\")",
       "Bash(.venv/bin/python *)",
       "Bash(.venv/bin/pytest *)",
-      "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/pytest tests/test_keyexchange.py -v)"
+      "Bash(/Users/yejusuh/work/projects/zero-trust-chat/.venv/bin/pytest tests/test_keyexchange.py -v)",
+      "Bash(pip3 show *)"
     ]
   }
 }
